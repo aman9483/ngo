@@ -107,7 +107,7 @@ const Navbar = () => {
     </li>
     <li className="px-4 py-2 text-red-600 hover:bg-black hover:text-white cursor-pointer">
     <a
-                href="/about"
+                href="/vission"
                 className="block py-2 px-3 md:p-0 text-red-600 bg-blue-700 rounded md:bg-transparent md:text-red-600"
               >
                 Vission & Mission
