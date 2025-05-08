@@ -139,16 +139,36 @@ const Navbar = () => {
               {activeDropdown === "initiatives" && (
                 <ul className="absolute z-10 bg-white border mt-2 w-48 rounded shadow-lg">
                   <li className="px-4 py-2 text-red-600 hover:bg-black hover:text-white cursor-pointer">
-                    Education
+                  <a
+                href="/Education"
+                className="block py-2 px-3 md:p-0 text-red-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-600"
+              >
+                Education
+              </a>
                   </li>
                   <li className="px-4 py-2 text-red-600 hover:bg-black hover:text-white cursor-pointer">
-                    Animal Welfare
+                  <a
+                href="/Animal"
+                className="block py-2 px-3 md:p-0 text-red-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-600"
+              >
+                Leadership
+              </a>
                   </li>
                   <li className="px-4 py-2 text-red-600 hover:bg-black hover:text-white cursor-pointer">
-                    Health
+                  <a
+                href="/Health"
+                className="block py-2 px-3 md:p-0 text-red-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-600"
+              >
+                Health
+              </a>
                   </li>
                   <li className="px-4 py-2 text-red-600 hover:bg-black hover:text-white cursor-pointer">
-                    Public Welfare
+                  <a
+                href="/Public"
+                className="block py-2 px-3 md:p-0 text-red-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-600"
+              >
+                Public
+              </a>
                   </li>
                 </ul>
               )}

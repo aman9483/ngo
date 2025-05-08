@@ -29,10 +29,10 @@ const Footer = () => {
         <div>
           <h4 className="text-xl font-semibold mb-4">Contact Us</h4>
           <p className="text-sm text-gray-300">
-            123 NGO Street,<br />
-            Hope City, India<br />
-            Phone: +91-9876543210<br />
-            Email: contact@ngoexample.org
+            Address:<br />
+            आर्शीवाद एवेन्यू, यूरो किड स्कूल के निकट, जकरियापुर मेन रोड, पटना-30 Patna, India 800030 Bihar<br />
+            Phone: +077810 12334<br />
+            Email: ashirwaadtrust4@gmail.com
           </p>
         </div>
 
@@ -40,7 +40,7 @@ const Footer = () => {
         <div>
           <h4 className="text-xl font-semibold mb-4">Follow Us</h4>
           <div className="flex space-x-4 mt-2">
-            <a href="#" className="bg-white text-red-900 p-2 rounded-full hover:bg-gray-200 transition">
+            <a href="https://www.facebook.com/AshirwadSewa.org/" className="bg-white text-red-900 p-2 rounded-full hover:bg-gray-200 transition">
               <FaFacebookF />
             </a>
             <a href="#" className="bg-white text-red-900 p-2 rounded-full hover:bg-gray-200 transition">
