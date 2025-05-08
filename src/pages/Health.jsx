@@ -12,7 +12,7 @@ import Ed6 from "../assets/Health-6.jpg";
 import Ed7 from "../assets/Health-7.jpg";
 import Ed8 from "../assets/Health-8.jpg";
 import Ed9 from "../assets/Health-9.jpg";
-import Ed10 from "../assets/health-10.jpg";
+import Ed10 from "../assets/health-10.jpeg";
 import Ed12 from "../assets/Health-12.jpg";
 import Ed13 from "../assets/health-13.jpg";
 
