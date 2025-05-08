@@ -23,7 +23,7 @@ const BecomeMemberPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here (e.g., send data to a backend)
+   
     console.log("Form submitted:", formData);
   };
 
@@ -35,7 +35,7 @@ const BecomeMemberPage = () => {
         </h1>
 
         <form onSubmit={handleSubmit}>
-          {/* Name */}
+         
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-600" htmlFor="name">
               Your Name *
@@ -51,7 +51,7 @@ const BecomeMemberPage = () => {
             />
           </div>
 
-          {/* Email */}
+       
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-600" htmlFor="email">
               Email *
@@ -67,7 +67,7 @@ const BecomeMemberPage = () => {
             />
           </div>
 
-          {/* Phone */}
+          
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-600" htmlFor="phone">
               Phone *
@@ -83,7 +83,7 @@ const BecomeMemberPage = () => {
             />
           </div>
 
-          {/* Gender */}
+      
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-600" htmlFor="gender">
               Gender *
@@ -114,7 +114,7 @@ const BecomeMemberPage = () => {
             </div>
           </div>
 
-          {/* Age */}
+       
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-600" htmlFor="age">
               Age
@@ -129,7 +129,7 @@ const BecomeMemberPage = () => {
             />
           </div>
 
-          {/* Identity */}
+
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-600" htmlFor="identity">
               Identity *
@@ -143,11 +143,11 @@ const BecomeMemberPage = () => {
               required
             >
               <option value="STUDENT">STUDENT</option>
-              {/* Add other options as needed */}
+            
             </select>
           </div>
 
-          {/* Areas of Interest */}
+      
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-600" htmlFor="areasOfInterest">
               Tell us in which areas you are interested in Internship/volunteering:
@@ -162,7 +162,7 @@ const BecomeMemberPage = () => {
             />
           </div>
 
-          {/* Experience */}
+       
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-600" htmlFor="experience">
               Write something about your experience *
@@ -177,7 +177,7 @@ const BecomeMemberPage = () => {
             ></textarea>
           </div>
 
-          {/* Address */}
+         
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-600" htmlFor="address">
               Address *
@@ -192,7 +192,7 @@ const BecomeMemberPage = () => {
             ></textarea>
           </div>
 
-          {/* Submit Button */}
+         
           <div className="mb-4 text-center">
             <button
               type="submit"

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-red-900 text-white pt-10 pb-6">
       <div className="max-w-screen-xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* About */}
+      
         <div>
           <h4 className="text-xl font-semibold mb-4">About Us</h4>
           <p className="text-sm text-gray-300">
@@ -13,7 +13,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Quick Links */}
+      
         <div>
           <h4 className="text-xl font-semibold mb-4">Quick Links</h4>
           <ul className="space-y-2 text-sm text-gray-300">
@@ -25,7 +25,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact Info */}
         <div>
           <h4 className="text-xl font-semibold mb-4">Contact Us</h4>
           <p className="text-sm text-gray-300">
@@ -36,7 +35,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Social Media */}
+   
         <div>
           <h4 className="text-xl font-semibold mb-4">Follow Us</h4>
           <div className="flex space-x-4 mt-2">
@@ -56,9 +55,9 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom */}
+   
       <div className="text-center text-sm text-gray-300 mt-10 border-t border-gray-700 pt-4">
-        © {new Date().getFullYear()} NGO Foundation. All rights reserved.
+        © {new Date().getFullYear()} ASHIRWAD SEWA SAMITI TRUST. All rights reserved.
       </div>
     </footer>
   );

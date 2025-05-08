@@ -28,7 +28,7 @@ const AnimalWeldfare = () => {
       Animal Welfare
       </h1>
 
-      {/* Account Details & QR Code */}
+   
       <div className="grid md:grid-cols-2 gap-10 mb-16">
         <div className="bg-white shadow-xl rounded-xl p-6">
           <h2 className="text-2xl font-semibold text-red-600 mb-4">Account Details</h2>
@@ -43,12 +43,11 @@ const AnimalWeldfare = () => {
           <img
             src={Qr}
             alt="QR Code"
-            className="w-64 h-64 object-contain border p-2 rounded-lg"
+            className="w-84 h-84 object-contain border p-2 rounded-lg"
           />
         </div>
       </div>
 
-      {/* Graphs */}
       <div className="grid md:grid-cols-2 gap-10 mb-16">
         <div className="bg-white shadow-xl rounded-xl p-6">
           <h2 className="text-2xl font-semibold text-red-600 mb-4">Bar Graph</h2>
@@ -68,13 +67,13 @@ const AnimalWeldfare = () => {
         </div>
       </div>
 
-      {/* Glimpse of Activities */}
+ 
       <div className="mb-12 relative">
         <h2 className="text-3xl font-bold text-red-700 text-center mb-6">
           A Glimpse of Our Activities
         </h2>
 
-        {/* Scroll Buttons */}
+       
         <button
           onClick={() => scroll("left")}
           className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white shadow-md p-3 rounded-full z-10 hover:bg-red-100"
@@ -88,7 +87,7 @@ const AnimalWeldfare = () => {
           <FaChevronRight className="text-red-700 text-xl" />
         </button>
 
-        {/* Image Container */}
+       
         <div
           ref={scrollRef}
           className="flex space-x-6 overflow-x-auto scrollbar-hide px-2 scroll-smooth"

@@ -1,11 +1,11 @@
 import React from "react";
-import aboutImage from "../assets/am1.jpeg"; // Replace with your actual image
+import aboutImage from "../assets/am1.jpeg"; 
 
 const AboutSection = () => {
   return (
     <section className="bg-gradient-to-r from-blue-50 to-purple-100 py-16 px-4">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
-        {/* Image */}
+       
         <div className="w-full md:w-1/2">
           <img
             src={aboutImage}
@@ -14,7 +14,6 @@ const AboutSection = () => {
           />
         </div>
 
-        {/* Text Content */}
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h2 className="text-4xl font-extrabold text-red-600 mb-5 tracking-wide">
             About Us

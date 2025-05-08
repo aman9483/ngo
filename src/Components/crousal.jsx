@@ -4,7 +4,7 @@ import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import "swiper/css/effect-fade"; // Add fade effect CSS
+import "swiper/css/effect-fade"; 
 import img1 from "../assets/img1.jpeg";
 import img2 from "../assets/img2.jpg";
 import img3 from "../assets/img3.jpeg";
@@ -31,7 +31,7 @@ const ImageCarousel = () => {
         pagination={{ clickable: true }}
         navigation={true}
         loop={true}
-        effect="fade" // Enable fade effect
+        effect="fade" 
         modules={[Autoplay, Pagination, Navigation, EffectFade]}
         className="rounded-lg shadow-lg"
       >
@@ -40,7 +40,7 @@ const ImageCarousel = () => {
             <img
               src={image}
               alt={`Slide ${index + 1}`}
-              className="w-full h-[500px] object-cover object-center rounded-lg" // Ensures full width, height, and focuses on the center of the image
+              className="w-full h-[500px] object-cover object-center rounded-lg" 
             />
           </SwiperSlide>
         ))}

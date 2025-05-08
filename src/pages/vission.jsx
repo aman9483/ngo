@@ -8,13 +8,13 @@ const VisionMissionPage = () => {
   return (
     <div className="bg-gray-50 min-h-screen">
       <div className="max-w-screen-xl mx-auto py-16 px-6">
-        {/* Vision Section */}
+       
         <h1 className="text-4xl font-bold text-gray-900 text-center mb-16">
           Our Vision
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {/* Left side - Text Content */}
+         
           <div className="space-y-6 flex flex-col justify-center">
             <p className="text-lg text-gray-700 leading-relaxed">
               Work as a catalyst in bringing sustainable change in the lives of underprivileged families.
@@ -30,7 +30,7 @@ const VisionMissionPage = () => {
             </p>
           </div>
 
-          {/* Right side - Image */}
+        
           <div className="flex justify-center items-center">
             <img
               src={VisionImage1}
@@ -41,7 +41,7 @@ const VisionMissionPage = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-20">
-          {/* Left side - Image */}
+        
           <div className="flex justify-center items-center">
             <img
               src={VisionImage2}
@@ -50,7 +50,7 @@ const VisionMissionPage = () => {
             />
           </div>
 
-          {/* Right side - Text Content */}
+         
           <div className="space-y-6 flex flex-col justify-center">
             <p className="text-lg text-gray-700 leading-relaxed">
               To prepare every eligible youth of India in the remotest of areas with a platform to learn and grow.
@@ -64,13 +64,13 @@ const VisionMissionPage = () => {
           </div>
         </div>
 
-        {/* Mission Section */}
+       
         <h1 className="text-4xl font-bold text-gray-900 text-center mt-24 mb-16">
           Our Mission
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {/* Left side - Text Content */}
+        
           <div className="space-y-6 flex flex-col justify-center">
             <p className="text-lg text-gray-700 leading-relaxed">
               Rehabilitating and providing education, shelter, and food to economically backward, child labourers, disabled, orphans, and semi-orphans.
@@ -86,7 +86,7 @@ const VisionMissionPage = () => {
             </p>
           </div>
 
-          {/* Right side - Image */}
+         
           <div className="flex justify-center items-center">
             <img
               src={MissionImage1}
@@ -97,7 +97,7 @@ const VisionMissionPage = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-20">
-          {/* Left side - Image */}
+       
           <div className="flex justify-center items-center">
             <img
               src={MissionImage2}
@@ -106,7 +106,7 @@ const VisionMissionPage = () => {
             />
           </div>
 
-          {/* Right side - Text Content */}
+         
           <div className="space-y-6 flex flex-col justify-center">
             <p className="text-lg text-gray-700 leading-relaxed">
               Enlightening and educating the indigenous people and remote rural masses.

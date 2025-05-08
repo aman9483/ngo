@@ -17,7 +17,7 @@ const ContactPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here (e.g., send data to a backend)
+    
     console.log("Contact form submitted:", formData);
   };
 
@@ -29,7 +29,7 @@ const ContactPage = () => {
         </h1>
 
         <form onSubmit={handleSubmit}>
-          {/* Name */}
+         
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-600" htmlFor="name">
               Your Name
@@ -44,7 +44,7 @@ const ContactPage = () => {
             />
           </div>
 
-          {/* Email */}
+       
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-600" htmlFor="email">
               Email
@@ -59,7 +59,7 @@ const ContactPage = () => {
             />
           </div>
 
-          {/* Message */}
+         
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-600" htmlFor="message">
               Message
@@ -73,7 +73,7 @@ const ContactPage = () => {
             ></textarea>
           </div>
 
-          {/* Submit Button */}
+         
           <div className="mb-4 text-center">
             <button
               type="submit"

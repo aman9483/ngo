@@ -32,7 +32,7 @@ const RecentProjects = () => {
       </div>
 
       <div className="relative w-full px-4">
-        {/* Scrollable container */}
+       
         <div
           ref={scrollContainerRef}
           className="flex overflow-x-auto space-x-4 py-4 scroll-smooth scrollbar-hide"
@@ -51,7 +51,7 @@ const RecentProjects = () => {
           ))}
         </div>
 
-        {/* Navigation Arrows */}
+    
         <div className="hidden md:block absolute top-1/2 -translate-y-1/2 left-2 z-10">
           <button
             onClick={scrollLeft}

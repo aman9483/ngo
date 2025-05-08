@@ -76,7 +76,7 @@ const Navbar = () => {
               </a>
             </li>
 
-            {/* Who We Are */}
+         
             <li className="relative">
               <button
                 onClick={() => toggleDropdown("who")}
@@ -117,7 +117,7 @@ const Navbar = () => {
 )}
             </li>
 
-            {/* Our Initiatives */}
+        
             <li className="relative">
               <button
                 onClick={() => toggleDropdown("initiatives")}
@@ -151,7 +151,7 @@ const Navbar = () => {
                 href="/Animal"
                 className="block py-2 px-3 md:p-0 text-red-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-600"
               >
-                Leadership
+                Animal Welfare
               </a>
                   </li>
                   <li className="px-4 py-2 text-red-600 hover:bg-black hover:text-white cursor-pointer">
@@ -174,7 +174,6 @@ const Navbar = () => {
               )}
             </li>
 
-            {/* News & Events */}
             <li className="relative">
               <button
                 onClick={() => toggleDropdown("news")}
@@ -202,7 +201,7 @@ const Navbar = () => {
               )}
             </li>
 
-            {/* Connect with Us */}
+        
             <li className="relative">
               <button
                 onClick={() => toggleDropdown("connect")}

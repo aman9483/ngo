@@ -45,7 +45,7 @@ const GallerySection = () => {
       </div>
 
       <div className="relative overflow-hidden">
-        {/* Scrollable Container */}
+       
         <div className="flex space-x-6 overflow-x-auto scrollbar-hide scroll-smooth px-4 py-4">
           {images.map((img, index) => (
             <div
