@@ -12,8 +12,9 @@ import Ed6 from "../assets/Health-6.jpg";
 import Ed7 from "../assets/Health-7.jpg";
 import Ed8 from "../assets/Health-8.jpg";
 import Ed9 from "../assets/Health-9.jpg";
+import Ed10 from "../assets/health-10.jpg";
 import Ed12 from "../assets/Health-12.jpg";
-import Ed13 from "../assets/Health-13.jpg";
+import Ed13 from "../assets/health-13.jpg";
 
 
 
@@ -101,7 +102,7 @@ const Health = () => {
           ref={scrollRef}
           className="flex space-x-6 overflow-x-auto scrollbar-hide px-2 scroll-smooth"
         >
-          {[Ed1, Ed2, Ed3, Ed4, Ed5, Ed6, Ed7, Ed8, Ed9, Ed12, Ed13].map((img, index) => (
+          {[Ed1, Ed2, Ed3, Ed4, Ed5, Ed6, Ed7, Ed8, Ed9, Ed10, Ed12, Ed13].map((img, index) => (
             <div key={index} className="min-w-[300px] flex-shrink-0">
               <img
                 src={img}
