@@ -20,10 +20,20 @@ const Navbar = () => {
 
         <div className="flex items-center md:order-2 space-x-3">
           <button className="text-red-600 border border-red-600 hover:bg-red-600 hover:text-white font-medium rounded-lg text-sm px-4 py-2">
-            Login
+          <a
+                href="/login"
+                
+              >
+                Login
+              </a>
           </button>
           <button className="text-white bg-red-600 hover:bg-red-700 font-medium rounded-lg text-sm px-4 py-2">
-            Sign Up
+          <a
+                href="/signup"
+               
+              >
+                Sign Up
+              </a>
           </button>
           <button
             type="button"

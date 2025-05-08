@@ -10,6 +10,9 @@ import EducationPage from "./pages/education";
 import Health from "./pages/Health"
 import Public from "./pages/publicWelfare";
 import Animal from "./pages/animalWelfare";
+import Login from "./pages/Login"
+import Signup from "./pages/SignUp"
+
 
 const App = () => {
   return (
@@ -27,6 +30,8 @@ const App = () => {
         <Route path="/Animal" element={<Animal/>} />
         <Route path="/Health" element={<Health/>} />
         <Route path="/Public" element={<Public/>} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/signup" element={<Signup/>} />
       </Routes>
     </Router>
   );
